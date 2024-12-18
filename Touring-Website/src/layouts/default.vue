@@ -1,15 +1,15 @@
 <template>
-  <v-app >
-    <v-main>
-      <router-view />
-    </v-main>
+  <v-app :style="{background: $vuetify.theme.themes.light.colors.primary}">
+    <default-bar />
 
-    <AppFooter />
+
+    <default-view />
+
   </v-app>
 </template>
 
 <script setup>
   import DefaultBar from './AppBar.vue'
   import DefaultView from './View.vue'
-  //
+  
 </script>
