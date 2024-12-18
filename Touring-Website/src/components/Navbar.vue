@@ -15,7 +15,10 @@
                 </v-list-item>
             </v-list>
         </v-menu>
-        <v-menu transition="slide-x-transition"
+        
+        <v-menu transition="slide-x-transition">
+
+        </v-menu>
     </v-app-bar>
 </template>
 
