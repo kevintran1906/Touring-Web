@@ -10,6 +10,6 @@
 
 <script setup>
   import DefaultBar from './AppBar.vue'
-  import DefaultView from './View.vue'
+  import DefaultView from './view.vue'
   
 </script>
